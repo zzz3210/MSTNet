@@ -1,0 +1,3 @@
+torch version:
+numpy version:
+scipy version:
