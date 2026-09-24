@@ -1,3 +1,8 @@
-torch version:
-numpy version:
-scipy version:
+# requirements.txt
+
+numpy== 2.2.3
+pandas== 2.2.3
+torch== 2.7.1+cu118
+scikit-learn== 1.7.2
+scipy== 1.15.2
+matplotlib== 3.10.1
