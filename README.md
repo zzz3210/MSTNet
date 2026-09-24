@@ -6,12 +6,6 @@ The model accepts input signals with shape (B, L, C) and outputs moisture conten
 The original raw dataset cannot be publicly released.
 The CSV files under `synthetic_dataset/` are synthetic test data, which do not represent the real gas-liquid two-phase flow measurements. This synthetic dataset is provided to reproduce the main experimental results of the paper.
 
-## Environment & Dependencies
-All required packages are listed in `requirements.txt`.
-Create the environment and install dependencies:
-```bash
-pip install -r requirements.txt
-
 ## Model Training
 Run the training script:python train.py
 The trained model checkpoint will be saved to saved_models/best_MSTNet_model.pth.
@@ -40,3 +34,9 @@ Users can modify dataset paths and model hyperparameters in config.py.
 
 ## License
 This project is released under the MIT License. See the LICENSE file for details.
+
+## Environment & Dependencies
+All required packages are listed in `requirements.txt`.
+Create the environment and install dependencies:
+```bash
+pip install -r requirements.txt
